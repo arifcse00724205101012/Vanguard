@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Map">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Units">
+      <UniqueIdentifier>{A1B2C3D4-E5F6-4A5B-8C9D-0E1F2A3B4C5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Economy">
+      <UniqueIdentifier>{B2C3D4E5-F6A7-4B5C-9D0E-1F2A3B4C5D6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Security">
+      <UniqueIdentifier>{C3D4E5F6-A7B8-4C5D-0E1F-2A3B4C5D6E7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Operations">
+      <UniqueIdentifier>{D4E5F6A7-B8C9-4D5E-1F2A-3B4C5D6E7F80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Conditions">
+      <UniqueIdentifier>{E5F6A7B8-C9D0-4E5F-2A3B-4C5D6E7F8091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI">
+      <UniqueIdentifier>{F6A7B8C9-D0E1-4F5A-3B4C-5D6E7F8091A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iGraphics">
+      <UniqueIdentifier>{A7B8C9D0-E1F2-4A5B-4C5D-6E7F8091A2B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameState.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameLogic.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\Map.cpp">
+      <Filter>src\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\Zone.cpp">
+      <Filter>src\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Units\SecurityUnit.cpp">
+      <Filter>src\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Units\EnemyUnit.cpp">
+      <Filter>src\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Economy\Economy.cpp">
+      <Filter>src\Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Security\SecuritySystem.cpp">
+      <Filter>src\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Operations\Operations.cpp">
+      <Filter>src\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Conditions\GameConditions.cpp">
+      <Filter>src\Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\UI.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\MainMenu.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\OperationsScreen.cpp">
+      <Filter>src\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Game\GameState.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameLogic.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map\Map.h">
+      <Filter>src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map\Zone.h">
+      <Filter>src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Units\SecurityUnit.h">
+      <Filter>src\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Units\EnemyUnit.h">
+      <Filter>src\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Economy\Economy.h">
+      <Filter>src\Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Security\SecuritySystem.h">
+      <Filter>src\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Operations\Operations.h">
+      <Filter>src\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Conditions\GameConditions.h">
+      <Filter>src\Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\UI.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\MainMenu.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\OperationsScreen.h">
+      <Filter>src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="igraphics\bitmap_loader.h">
+      <Filter>iGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="igraphics\glaux.h">
+      <Filter>iGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="igraphics\glut.h">
+      <Filter>iGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="igraphics\iGraphics.h">
+      <Filter>iGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="igraphics\stb_image.h">
+      <Filter>iGraphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
